@@ -11,39 +11,18 @@ header{
     color: rgb(245, 240, 234);
     text-align: start;
     border: solid 5px black;
-}
-/* nav  */
+    background-image: linear-gradient(to left,  rgb(218, 146, 146), brown);
 
-.nav-enlace{
-display: inline-block;
-background: black;
-color:#fff;
-padding: 10px 30px;
-text-decoration: none;
 }
-.nav-enlace:hover{
-    background: rosybrown;
-}
-nav{
-    background: black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around; 
-    padding: 5px;
-}
-.nav-boton{
-    background: rgb(64, 186, 216);
-    color: #fff;
-    padding: 10px 0;
-    border: 2px solid #fff;
-    display: none;
+.navbar-dark{
+    background-color: black;
 }
 
 /*     productos + catálogo --------- FLEXBOX   */
 
 .productos{
     width: 100%;
-    min-height: 400px;
+    height: 550px;
     background-color: rgb(1, 14, 27);
     font-family: 'Outfit', sans-serif;
     color: rgb(245, 240, 234);
@@ -52,7 +31,7 @@ nav{
     background-image: url(cervezaP.jpg);
     background-size: cover;
     background-position: center;
-    padding: 400px 100px;
+   /* padding: 400px 100px;*/
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -72,14 +51,20 @@ nav{
     font-size: 60px;
     color: #fff;
     position: relative;
-    
-}
+    animation-duration: 2.5s;
+    animation-name: aparecer;
+    animation-delay: 0;
+    animation-direction: alternate;
+    padding-top:  8%;
+   }
+
 .productMain{
     text-align: center;
     padding-top: 5%;
     padding-right: 18%;
     padding-left: 18%;
     padding-bottom: 5%;
+    font-size: 60px;
 }
 
 .catalogo{
@@ -92,7 +77,9 @@ nav{
     padding-right: 0%;
     padding-bottom: 10%;
     text-align: center;
-    }
+    justify-items: center;
+    
+}
 .producto:hover{   
     transform: scale(1.05);
     transition: all 0.5s;
@@ -113,7 +100,9 @@ nav{
     font-size: 20px;
     font-weight: bold;
 }
-
+.btn{
+    background-color: black;
+}
 
 
 
@@ -126,6 +115,8 @@ footer{
     border: solid 5px black;
     width: 100%;
     height: 12%;
+    background-image: linear-gradient(to left,  rgb(218, 146, 146), brown);
+
 }
 .botonWhatsApp img{
     width: 70px;

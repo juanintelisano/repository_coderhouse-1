@@ -36,7 +36,6 @@ header {
   background-size: cover;
   background-position: center;
   /*padding: 350px 95px;*/
-  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -320,7 +319,7 @@ h2 {
   color: #f5f0ea;
   text-align: center;
   border: solid 5px black;
-  background-image: url(IMG/cervezaP.jpg);
+  background-image: url(https://fotos.perfil.com/2021/11/12/trim/1200/900/cerveza-artesanal-1268691.jpg);
   background-size: cover;
   background-position: center;
   /* padding: 400px 100px;*/
@@ -418,7 +417,7 @@ h2 {
   color: #f5f0ea;
   text-align: center;
   border: solid 5px black;
-  background-image: url(IMG/BIRRAMOVIL.jpg);
+  background-image: url(https://brewandhub.es/wp-content/uploads/2021/04/1408x602-formatos-de-barriles-pros-y-contras-4.jpg);
   background-size: cover;
   background-position: center;
   /*padding: 350px 95px;*/
@@ -464,15 +463,6 @@ h2 {
   font-size: 20px;
 }
 
-.servp::before {
-  /*   PSEUDO ELEMENTO  */
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .servp {
